@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@1&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  font: 100%;
+  background: rgb(133, 0, 233);
+  background: radial-gradient(
+    circle,
+    rgba(133, 0, 233, 1) 14%,
+    rgba(184, 0, 164, 1) 77%,
+    rgba(0, 32, 235, 1) 100%,
+    rgba(238, 0, 249, 1) 100%
+  );
+  margin: 0;
+  font-family: "DM Serif Display", serif;
+}
+
+img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  border: 5px solid rgb(230, 0, 69);
+}
+
+.container {
+  display: flex;
+
+  justify-content: space-between;
+  align-items: center;
+
+  margin: 5vh;
+
+  padding: 3vh;
+
+  border: 1px solid rgb(207, 18, 245);
+}
+
+.container.pequeno {
+  width: 50%;
+}
+
+.container.grande {
+  width: 90%;
+}
+
+.redes-sociais {
+  display: flex;
+  flex-direction: column;
+
+  width: 20%;
+}
+
+.redes-sociais button {
+  background-color: rgba(133, 0, 233, 1);
+  color: white;
+  border: none;
+  outline: none;
+  padding: 2vh;
+  font-size: 2.5vh;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 100%;
+  margin: 1vh;
+}
+
+footer {
+  display: block;
+  text-align: center;
+  background-color: rgb(207, 18, 245);
+  width: 100%;
+  padding: 2vh;
+}
